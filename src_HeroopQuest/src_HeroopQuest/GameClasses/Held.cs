@@ -57,8 +57,8 @@ namespace src_HeroopQuest.GameClasses
         public void ToonFiche()
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine($"\t\t**********{Naam}**********" +
-                $"\nBeschrijving: {Beschrijving}");
+            Console.WriteLine($"\t~~~~~~~~~~{Naam} de {HeldType}~~~~~~~~~~" +
+                $"\n\t{Beschrijving}");
             Console.WriteLine($"\tIntelligentie: {HuidigIntelligentie}/{MaxIntelligentie}");
             Console.WriteLine($"\tLichaamspunten: {HuidigLichaam}/{MaxLichaam}");
             Console.ResetColor();
